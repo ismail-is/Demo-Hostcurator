@@ -19,14 +19,15 @@ function Services({ services }) {
 					</h2>
 				</div> */}
 				<div className="aximo-service-wrap">
-					<div className="row">
-						{services.map((item, index) => (
-							<FadeInStagger key={item.id} index={index} className="col-lg-3">
-								<ServiceCard service={item} />
-							</FadeInStagger>
-						))}
-					</div>
-				</div>
+  <div className="row">
+    {services.map((item, index) => (
+      <FadeInStagger key={item.id} index={index} className="col-lg-3 d-flex gap-1">
+        <ServiceCard service={item} />
+      </FadeInStagger>
+    ))}
+  </div>
+</div>
+
 			</div>
 		</div>
 	);

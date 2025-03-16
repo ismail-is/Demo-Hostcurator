@@ -20,6 +20,7 @@ const servicesData = [
 		description:
 			"Ensure smooth hosting performance with expert support. From setup to troubleshooting, we’ve got you covered",
 		icon: "icon-design-tools",
+		color:'#FFDDDD',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -27,6 +28,7 @@ const servicesData = [
 		description:
 			"Optimize server performance and reliability with comprehensive management solutions.",
 		icon: "icon-branding",
+		color:'#E7DEF9',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -34,6 +36,7 @@ const servicesData = [
 		description:
 			"Streamline development and operations workflows for faster software delivery.",
 		icon: "icon-web",
+		color:'#FFDDDD',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -41,6 +44,7 @@ const servicesData = [
 		description:
 			"Transform ideas into powerful web applications with custom development services.",
 		icon: "icon-design-thinking",
+		color:'#E7DEF9',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -48,6 +52,7 @@ const servicesData = [
 		description:
 			"Empower your website with a flexible and user-friendly content management system.",
 		icon: "icon-design-thinking",
+		color:'#FFDDDD',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -55,6 +60,7 @@ const servicesData = [
 		description:
 			"Enhance online visibility and drive organic traffic with comprehensive SEO services.",
 		icon: "icon-design-thinking",
+		color:'#E7DEF9',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -62,6 +68,7 @@ const servicesData = [
 		description:
 			"Dedicated Support ensures expert guidance and tailored solutions to meet your needs effectively.",
 		icon: "icon-design-thinking",
+		color:'#FFDDDD',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -69,6 +76,7 @@ const servicesData = [
 		description:
 			"Web hosting support refers to the services and assistance provided by a web hosting provider to ensure customers' websites run smoothly and remain accessible to users.",
 		icon: "icon-design-thinking",
+		color:'#E7DEF9',
 	},
 ];
 const teamsData = [
@@ -102,11 +110,12 @@ export default function HomeOne() {
 		<>
 			<Hero />
 			<Services services={servicesData} />
+			<AutoSlider />
 			<About />
 			<Projects />
 			<WhyChooseUs />
 			<Testimonial />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Teams teams={teamsData} />
 		</>
 	);
