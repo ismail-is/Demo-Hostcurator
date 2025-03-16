@@ -2584,13 +2584,13 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 }
 .aximo-default-btn.aximo-header-btn {
 	height: 50px;
-	width: 150px;
+	width: 100px;
 	padding: 0;
 	line-height: 47.5px;
-	color: var(--heading-color) !important;
-	border: 2px solid var(--heading-color);
-	box-shadow: 0px 4px 0px 0px var(--white-smoke);
-	background-color: var(--accent-bg);
+	color:#fff;
+	border: 1px solid #fff;
+	/* box-shadow: 0px 4px 0px 0px var(--white-smoke); */
+	background-color: transparent;
 }
 .aximo-default-btn.aximo-header-btn:hover {
 	box-shadow: none;
@@ -5016,15 +5016,15 @@ p.aximo-skillbar-lable {
 }
 
 .aximo-iconbox-wrap {
-	padding: 30px;
+	padding: 10px;
 	border-radius: 20px;
 	margin-bottom: 30px;
 	transition: all 0.4s;
 	border: 2px solid var(--heading-color);
 }
 .aximo-iconbox-wrap:hover {
-	background-color: var(--accent-bg);
-	box-shadow: 4px 4px 0 0 var(--heading-color);
+	background-color: #FFDDDD;
+	/* box-shadow: 4px 4px 0 0 var(--heading-color); */
 }
 .aximo-iconbox-icon {
 	margin-bottom: 30px;
@@ -5055,6 +5055,7 @@ p.aximo-skillbar-lable {
 	margin-bottom: 15px;
 	font-family: var(--font-clash-grotesk);
 	color: var(--heading-color2);
+	
 }
 .aximo-iconbox-column {
 	display: grid;

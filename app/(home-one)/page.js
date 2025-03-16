@@ -16,30 +16,58 @@ import Team4Img from "@/public/images/team/team4.png";
 const servicesData = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "Web Development",
 		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
+			"Ensure smooth hosting performance with expert support. From setup to troubleshooting, we’ve got you covered",
 		icon: "icon-design-tools",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Graphic Design",
+		title: "Server Management",
 		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
+			"Optimize server performance and reliability with comprehensive management solutions.",
 		icon: "icon-branding",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design",
+		title: "DevOps Solutions",
 		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
+			"Streamline development and operations workflows for faster software delivery.",
 		icon: "icon-web",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Motion Graphics",
+		title: "App Development",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
+			"Transform ideas into powerful web applications with custom development services.",
+		icon: "icon-design-thinking",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "CMS Development",
+		description:
+			"Empower your website with a flexible and user-friendly content management system.",
+		icon: "icon-design-thinking",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "SEO Services",
+		description:
+			"Enhance online visibility and drive organic traffic with comprehensive SEO services.",
+		icon: "icon-design-thinking",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Dedicated support",
+		description:
+			"Dedicated Support ensures expert guidance and tailored solutions to meet your needs effectively.",
+		icon: "icon-design-thinking",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Web Hosting Support",
+		description:
+			"Web hosting support refers to the services and assistance provided by a web hosting provider to ensure customers' websites run smoothly and remain accessible to users.",
 		icon: "icon-design-thinking",
 	},
 ];

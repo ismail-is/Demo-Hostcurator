@@ -17,7 +17,7 @@ function Header() {
 					<HeaderLogo />
 					<div className="menu-block-wrapper">
 						<DesktopNav>
-							<NavItem dropdown title="Demo">
+							{/* <NavItem dropdown title="Demo">
 								<Dropdown>
 									<DropdownItem url="/">Design Agency</DropdownItem>
 									<DropdownItem url="home-two">Startup Agency</DropdownItem>
@@ -82,8 +82,13 @@ function Header() {
 									<DropdownItem url="blog-grid">Blog Grid</DropdownItem>
 									<DropdownItem url="single-blog">Blog Details</DropdownItem>
 								</Dropdown>
-							</NavItem>
-							<NavItem url="contact-us">Contact Us</NavItem>
+							</NavItem> */}
+							{/* <NavItem url="/">Home</NavItem>
+							<NavItem url="">Service</NavItem>
+							<NavItem url="">About</NavItem>
+							<NavItem url="">Plan</NavItem>
+							<NavItem url="">Hire</NavItem>
+							<NavItem url="contact-us">Contact Us</NavItem> */}
 						</DesktopNav>
 					</div>
 					<HeaderButton />

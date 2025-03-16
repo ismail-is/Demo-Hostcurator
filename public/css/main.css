@@ -10,7 +10,7 @@
 .brand-logo,
 .default-logo,
 .responsive-logo {
-	max-width: 128px;
+	max-width: auto;
 	transition: all 0.4s;
 	position: relative;
 	margin-right: 35px;
@@ -928,6 +928,7 @@
 @media (min-width: 480px) {
 	.d-xs-inline-flex {
 		display: inline-flex !important;
+		gap: 10px;
 	}
 }
 

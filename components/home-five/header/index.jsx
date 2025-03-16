@@ -19,7 +19,7 @@ function Header() {
 					<HeaderLogo />
 					<div className="menu-block-wrapper">
 						<DesktopNav>
-							<NavItem dropdown title="Demo">
+							<NavItem dropdown title="Demoss">
 								<Dropdown>
 									<DropdownItem url="/">Design Agency</DropdownItem>
 									<DropdownItem url="home-two">Startup Agency</DropdownItem>

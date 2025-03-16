@@ -7,7 +7,7 @@ function Services({ services }) {
 	return (
 		<div className="section aximo-section-padding4">
 			<div className="container">
-				<div className="aximo-section-title center">
+				{/* <div className="aximo-section-title center">
 					<h2>
 						We provide effective
 						<span className="aximo-title-animation">
@@ -17,11 +17,11 @@ function Services({ services }) {
 							</span>
 						</span>
 					</h2>
-				</div>
+				</div> */}
 				<div className="aximo-service-wrap">
 					<div className="row">
 						{services.map((item, index) => (
-							<FadeInStagger key={item.id} index={index} className="col-lg-6">
+							<FadeInStagger key={item.id} index={index} className="col-lg-3">
 								<ServiceCard service={item} />
 							</FadeInStagger>
 						))}
