@@ -19,17 +19,17 @@ const sliderData = [
 	{
 		id: crypto.randomUUID(),
 		title: "TRANSPARENT",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "INNOVATIVE",
 		img: Start5Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "COLLABORATIVE",
+		title: "INNOVATIVE",
 		img: Star3Img,
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "COLLABORATIVE",
+		img: Start5Img,
 	},
 	{
 		id: crypto.randomUUID(),

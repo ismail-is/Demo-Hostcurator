@@ -6,6 +6,8 @@ import Services from "@/components/home-one/services";
 import Teams from "@/components/home-one/teams";
 import Testimonial from "@/components/home-one/testimonial";
 import WhyChooseUs from "@/components/home-one/why-choose-us";
+import BrandLogo from "@/components/home-two/brand-logo";
+import PricingPlan from "@/components/pricing/PricingPlan";
 
 // Teams images
 import Team1Img from "@/public/images/team/team1.png";
@@ -111,6 +113,8 @@ export default function HomeOne() {
 			<Hero />
 			<Services services={servicesData} />
 			<AutoSlider />
+			<PricingPlan />
+			<BrandLogo />
 			<About />
 			<Projects />
 			<WhyChooseUs />

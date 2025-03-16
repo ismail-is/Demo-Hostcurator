@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import CheckImg from "../../public/images/allimg/download.svg";
-function PricingCard({ plan: { title, description, price, features, highlighted }, frequency }) {
+function PricingCard2({ plan: { title, description, price, features, highlighted }, frequency }) {
 	return (
 		<div className="aximo-pricing-wrap2">
 			<div className="aximo-pricing-header2">
@@ -43,4 +43,4 @@ function PricingCard({ plan: { title, description, price, features, highlighted 
 	);
 }
 
-export default PricingCard;
+export default PricingCard2;

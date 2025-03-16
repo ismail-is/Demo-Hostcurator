@@ -7,61 +7,72 @@ import PricingCard from "./PricingCard";
 const pricingPlanData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design Package",
+		title: "Server Management and Monitoring Services",
+		small:'No limit on the number of servers supported. You get expert unlimited server support within minutes – 24/7.',
 		price: [
-			{ id: 1, value: 299 },
+			{ id: 1, value: 39 },
 			{
 				id: 2,
 				value: 399,
 			},
 		],
-		description: "Web design packages offered a range of services and features to create websites",
+		description: "No limit on the number of servers supported. You get expert unlimited server support within minutes – 24/7.",
 		features: [
-			"Consultation & Discovery",
-			"Responsive Design",
-			"E-commerce Integration",
-			"Custom Web Design",
-			"Testing and Quality Assurance",
+			"Support for one server",
+			"24/7 server monitoring & rescue",
+			"15 mins response to alerts",
+			"15 mins response to alerts",
+			"Initial system tuning & hardening",
+			"Regular server updates",
+			"Initial system tuning & hardening",
+			"Regular server updates",
 		],
 		highlighted: false,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "UX/UI Package",
+		title: "Limitless Server Management*",
 		price: [
-			{ id: 1, value: 499 },
+			{ id: 1, value: 89 },
 			{
 				id: 2,
 				value: 599,
 			},
 		],
-		description: "UX/UI package offered a set of services aimed at designing user-friendly UI/UX",
+		description: "No limit on the number of servers supported. You get expert unlimited server support within minutes – 24/7.",
 		features: [
-			"Information Architecture",
-			"Wireframing & Prototyping",
-			"Usability Testing",
-			"Visual Design &",
-			"User Interface (UI) Design",
+			"Support for one server",
+			"24/7 server monitoring & rescue",
+			"15 mins response to alerts",
+			"15 mins response to alerts",
+			"Initial system tuning & hardening",
+			"Regular server updates",
+			"Initial system tuning & hardening",
+			"Regular server updates",
+			
 		],
 		highlighted: true,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Branding Package",
+		title: "24 * 7 Server Management",
 		price: [
-			{ id: 1, value: 299 },
+			{ id: 1, value: 39 },
 			{
 				id: 2,
 				value: 399,
 			},
 		],
-		description: "Branding package typically includes a comprehensive set of brand&apos;s identity",
+		description: "No limit on the number of servers supported. You get expert unlimited server support within minutes – 24/7.",
 		features: [
-			"Brand Guidelines",
-			"Stationery & Website Design",
-			"Social Media Assets",
-			"Signage & Packaging Design",
-			"Brand Launch Support",
+			"Support for one server",
+			"24/7 server monitoring & rescue",
+			"15 mins response to alerts",
+			"15 mins response to alerts",
+			"Initial system tuning & hardening",
+			"Regular server updates",
+			"Initial system tuning & hardening",
+			"Regular server updates",
 		],
 		highlighted: false,
 	},
@@ -83,20 +94,30 @@ function PricingPlan() {
 	}
 
 	return (
-		<div className="section aximo-section-padding3">
+		<div  className="section aximo-section-padding3" style={{backgroundColor:'black'}}>
+
+	
+		<div className="section aximo-section-padding4" style={{backgroundColor:'#FFDEDD',margin:'0 40px 10px 40px',borderRadius:'20px',paddingBottom:'20px'}}>
 			<div className="container">
-				<div className="aximo-pricing-title">
-					<h2>
-						Pick from one of our
-						<span className="aximo-title-animation">
+				<div className="aximo-pricing-title" style={{marginTop:'-60px'}}>
+					<h2 style={{fontSize:'34px'}}>
+					 PRICE
+					<span style={{color:' #FFFFFF',
+    backgroundColor:'#7947DD',
+    border: '2px solid #000000 ',
+    borderRadius:' 269px',
+    padding:' 0px 10px 0px 10px',
+	textTransform:'uppercase',
+	marginLeft:'10px'}} > PLANS</span>
+						{/* <span className="aximo-title-animation">
 							ready packages
 							<span className="aximo-title-icon">
 								<Image src={StarImg} alt="star" />
 							</span>
-						</span>
+						</span> */}
 					</h2>
 				</div>
-				<div className="pricing-btn">
+				{/* <div className="pricing-btn">
 					<label>Billed monthly</label>
 					<div className="toggle-btn">
 						<input
@@ -106,15 +127,17 @@ function PricingPlan() {
 						/>
 					</div>
 					<label>Billed annually</label>
-				</div>
-				<div className="row" id="table-price-value">
+				</div> */}
+				<div className="row" id="table-price-value" >
 					{pricingPlanData.map((plan, index) => (
 						<FadeInStagger className="col-xl-4 col-md-6" key={plan.id} index={index}>
+							<PricingCard plan={plan} frequency={frequency} />
 							<PricingCard plan={plan} frequency={frequency} />
 						</FadeInStagger>
 					))}
 				</div>
 			</div>
+		</div>
 		</div>
 	);
 }

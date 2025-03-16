@@ -457,7 +457,7 @@ h4,
 
 h5,
 .h5 {
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 1.41;
 	letter-spacing: -0.48px;
 }
@@ -6898,8 +6898,9 @@ img.aximo-video-circle {
 .aximo-pricing-wrap2 {
 	border-radius: 20px;
 	margin-bottom: 30px;
-	padding: 30px 26px 30px 28px;
+	padding: 10px 16px 0px 18px;
 	border: 2px solid var(--heading-color);
+	background-color: white;
 }
 .aximo-pricing-header2 {
 	margin-bottom: 20px;
@@ -6909,7 +6910,7 @@ img.aximo-video-circle {
 }
 .aximo-pricing-description {
 	padding: 24px 0;
-	border-bottom: 1px solid #e6e6e6;
+	/* border-bottom: 1px solid #e6e6e6; */
 }
 .aximo-pricing-body2 {
 	margin-top: 24px;
@@ -6917,7 +6918,7 @@ img.aximo-video-circle {
 }
 .aximo-pricing-body2 ul li {
 	position: relative;
-	font-size: 21px;
+	font-size: 15px;
 	font-weight: 600;
 	padding-left: 40px;
 	margin-bottom: 20px;
@@ -6935,24 +6936,26 @@ img.aximo-video-circle {
 	left: 0;
 }
 .aximo-pricing-btn2 {
-	width: 100%;
-	height: 60px;
-	font-size: 16px;
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
 	font-weight: 700;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	justify-items: center	;
 	line-height: 60px;
 	border-radius: 50px;
 	background-color: transparent;
 	transition: all 0.4s;
+	background-color: #FDB920;
 	color: var(--heading-color) !important;
 	border: 2px solid var(--heading-color);
 	box-shadow: 0px 4px 0px 0px #fdfde1;
 }
 .aximo-pricing-btn2:hover {
 	color: var(--heading-color) !important;
-	background-color: var(--accent-bg);
+	background-color: #FDB920;
 }
 .aximo-pricing-btn2.active {
 	color: var(--heading-color) !important;

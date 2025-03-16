@@ -2,13 +2,13 @@
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Brand1Img from "../../../public/images/v2/b_1.png";
-import Brand2Img from "../../../public/images/v2/b_2.png";
-import Brand3Img from "../../../public/images/v2/b_3.png";
-import Brand4Img from "../../../public/images/v2/b_4.png";
-import Brand5Img from "../../../public/images/v2/b_5.png";
-import Brand6Img from "../../../public/images/v2/b_6.png";
-import Brand7Img from "../../../public/images/v2/b_7.png";
+import Brand1Img from "../../../public/images/allimg/clients/1.png";
+import Brand3Img from "../../../public/images/allimg/clients/2.png";
+import Brand2Img from "../../../public/images/allimg/clients/3.png";
+import Brand5Img from "../../../public/images/allimg/clients/4.png";
+import Brand4Img from "../../../public/images/allimg/clients/1.png";
+import Brand6Img from "../../../public/images/allimg/clients/1.png";
+import Brand7Img from "../../../public/images/allimg/clients/1.png";
 
 const sliderData = [
 	{
@@ -31,42 +31,7 @@ const sliderData = [
 		id: crypto.randomUUID(),
 		img: Brand5Img,
 	},
-	{
-		id: crypto.randomUUID(),
-		img: Brand6Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Brand7Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Brand1Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Brand2Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Brand3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Brand4Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Brand5Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Brand6Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Brand7Img,
-	},
+	
 ];
 
 const swiperSettings = {
@@ -98,7 +63,7 @@ function BrandLogo() {
 	return (
 		<div className="aximo-brandlogo-section extra-side-margin">
 			<div className="aximo-brandlogo-title">
-				<p>We’ve helped over 200+ startups grow their business around the world</p>
+				<h2>TECHNOLOGIES WE USE</h2>
 			</div>
 			<div className="swiper aximo-auto-slider">
 				{
